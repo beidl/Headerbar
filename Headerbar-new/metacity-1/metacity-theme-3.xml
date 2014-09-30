@@ -798,8 +798,8 @@
 
 <draw_ops name="button_fill_prelight"> <!-- button background gradient for prelight status -->
   <gradient type="vertical" x="5" y="5" width="width-10" height="height-10">
-		<color value="gtk:custom(button_hover_gradient_color_a,gtk:fg[NORMAL])" />
-		<color value="gtk:custom(button_hover_gradient_color_b,gtk:fg[NORMAL])" />
+		<color value="gtk:custom(wm_button_hover_color_a,gtk:fg[NORMAL])" />
+		<color value="gtk:custom(wm_button_hover_color_b,gtk:fg[NORMAL])" />
 	</gradient>
 	<include name="button_border" />
 </draw_ops>
